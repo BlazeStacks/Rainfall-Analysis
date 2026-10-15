@@ -250,3 +250,15 @@ cd ..\..\frontend
 npm run build
 # Output: frontend/dist/
 ```
+
+## Deploying the Backend to Render
+
+Create a **Web Service** in Render connected to this repository and configure:
+
+- **Root Directory:** `backend/rainfall-api`
+- **Runtime:** Docker
+- **Dockerfile Path:** `./Dockerfile`
+
+The Docker image builds the Spring Boot JAR and runs it using Render's `PORT` environment variable (defaulting to `8080` locally). The CSV dataset is packaged in the JAR. Once deployed, the API base URL is `https://<your-service>.onrender.com/api/rainfall`.
+
+Set `CORS_ALLOWED_ORIGINS` in Render to the frontend's full origin (for example, `https://your-frontend.onrender.com`). For multiple origins, separate them with commas. The local Vite origins are allowed by default.
