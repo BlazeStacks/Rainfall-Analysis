@@ -1,0 +1,24 @@
+# ── Build outputs ────────────────────────────────────────────────────────────
+frontend/dist/
+frontend/node_modules/
+backend/rainfall-api/target/
+
+# ── Environment files (never commit secrets) ─────────────────────────────────
+.env
+frontend/.env
+backend/.env
+
+# ── IDE & OS ──────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Maven wrapper (optional) ──────────────────────────────────────────────────
+!.mvn/wrapper/maven-wrapper.jar

@@ -1,0 +1,74 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
+Progress (1): 234 BProgress (2): 234 B | 249 B                           Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 972 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 910 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
+Progress (1): 375 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
+Progress (1): 394 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
+Progress (1): 255 B                   Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 830 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 3.9 kBProgress (1): 4.0 kBProgress (1): 9.9 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (10 kB at 427 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 243 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/maven-metadata.xml (243 B at 704 B/s)
+Progress (1): 3.7 kBProgress (1): 3.7 kBProgress (1): 9.4 kBProgress (1): 15 kB Progress (1): 19 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 244 kB/s)
+Progress (1): 242 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 1.6 kB/s)
+Progress (1): 398 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 1.5 kB/s)
+[INFO] 
+[INFO] ---------------------< com.rainfall:rainfall-api >----------------------
+[INFO] Building rainfall-api 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.3.4:run (default-cli) > test-compile @ rainfall-api >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ rainfall-api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ rainfall-api ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 8 source files with javac [debug parameters release 21] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ rainfall-api ---
+[INFO] skip non existing resourceDirectory c:\Users\PC\Aryan\3 - College\MF MDM Mini Project\backend\rainfall-api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ rainfall-api ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] <<< spring-boot:3.3.4:run (default-cli) < test-compile @ rainfall-api <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.3.4:run (default-cli) @ rainfall-api ---
+[INFO] Attaching agents: []
+2026-10-15T16:18:35.820+05:30  INFO 11928 --- [rainfall-api] [           main] c.rainfall.api.RainfallApiApplication    : Starting RainfallApiApplication using Java 21.0.10 with PID 11928 (C:\Users\PC\Aryan\3 - College\MF MDM Mini Project\backend\rainfall-api\target\classes started by PC in c:\Users\PC\Aryan\3 - College\MF MDM Mini Project\backend\rainfall-api)
+2026-10-15T16:18:35.822+05:30  INFO 11928 --- [rainfall-api] [           main] c.rainfall.api.RainfallApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-10-15T16:18:36.279+05:30  INFO 11928 --- [rainfall-api] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-15T16:18:36.285+05:30  INFO 11928 --- [rainfall-api] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-15T16:18:36.286+05:30  INFO 11928 --- [rainfall-api] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-10-15T16:18:36.314+05:30  INFO 11928 --- [rainfall-api] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-15T16:18:36.315+05:30  INFO 11928 --- [rainfall-api] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 469 ms
+2026-10-15T16:18:36.348+05:30  INFO 11928 --- [rainfall-api] [           main] c.r.api.service.DataLoaderService        : Loading dataset from external path: c:\Users\PC\Aryan\3 - College\MF MDM Mini Project\backend\rainfall-api\..\..\data\rainfall_india_1901_2015.csv
+2026-10-15T16:18:36.373+05:30  INFO 11928 --- [rainfall-api] [           main] c.r.api.service.DataLoaderService        : Loaded 4116 rainfall records.
+2026-10-15T16:18:36.538+05:30  INFO 11928 --- [rainfall-api] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-15T16:18:36.541+05:30  INFO 11928 --- [rainfall-api] [           main] c.rainfall.api.RainfallApiApplication    : Started RainfallApiApplication in 0.914 seconds (process running for 1.083)
